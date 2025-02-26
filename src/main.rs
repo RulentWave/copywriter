@@ -10,7 +10,7 @@ use regex::Regex;
 use walkdir::WalkDir;
 
 fn main() -> io::Result<()> {
-	let matches = Command::new("License Updater")
+	let matches = Command::new("copywriter")
 		.version("1.0")
 		.author("Your Name")
 		.about("Updates copyright headers and license footers in source code files")
